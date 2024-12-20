@@ -2,7 +2,7 @@
 #define HITTABLE_H
 
 class hit_record {
-public:
+  public:
     point3 p;
     vec3 normal;
     double t;
@@ -18,7 +18,7 @@ public:
 };
 
 class hittable {
-public:
+  public:
     virtual ~hittable() = default;
 
     virtual bool hit(const ray& r, interval ray_t, hit_record& rec) const = 0;

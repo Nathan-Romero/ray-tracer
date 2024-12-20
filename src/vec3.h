@@ -2,7 +2,7 @@
 #define VEC3_H
 
 class vec3 {
-public:
+  public:
     double e[3];
 
     vec3() : e{ 0,0,0 } {}

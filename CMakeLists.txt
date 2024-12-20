@@ -20,8 +20,8 @@ set ( EXTERNAL
 )
 
 set (SOURCE_FILES
-  src/main.cpp
-  # src/camera.h
+  src/main.cc
+  src/camera.h
   src/color.h
   src/hittable.h
   src/hittable_list.h
