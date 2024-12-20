@@ -476,4 +476,3 @@ CMakeSettings.json
 
 # Ray Tracer entries
 build/
-*.ppm

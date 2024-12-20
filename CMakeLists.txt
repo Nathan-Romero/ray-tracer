@@ -1,5 +1,5 @@
 #---------------------------------------------------------------------------------------------------
-# CMake Build Configuration for the Ray Tracing Weekend Series
+# CMake Build Configuration for the Ray Tracer project
 #
 # See README.md for guidance.
 #---------------------------------------------------------------------------------------------------
@@ -15,12 +15,12 @@ set (CMAKE_CXX_EXTENSIONS        OFF)
 
 # Source
 
-# set ( EXTERNAL
-#   src/external/stb_image.h
-# )
+set ( EXTERNAL
+  src/external/stb_image.h
+)
 
 set (SOURCE_FILES
-  main.cpp
+  src/main.cpp
   # src/camera.h
   # src/color.h
   # src/hittable.h
@@ -33,7 +33,7 @@ set (SOURCE_FILES
   # src/vec3.h
 )
 
-# include_directories(src)
+include_directories(src)
 
 # Specific compiler flags below. We're not going to add options for all possible compilers, but if
 # you're new to CMake (like we are), the following may be a helpful example if you're using a
@@ -63,4 +63,4 @@ elseif (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 # Executable
-add_executable(ray-tracer ${SOURCE_FILES})
+add_executable(ray-tracer ${EXTERNAL} ${SOURCE_FILES})
