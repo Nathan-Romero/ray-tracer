@@ -25,7 +25,7 @@ set (SOURCE_FILES
   src/color.h
   src/hittable.h
   src/hittable_list.h
-  # src/interval.h
+  src/interval.h
   # src/material.h
   src/ray.h
   src/rtweekend.h
