@@ -22,7 +22,7 @@ set ( EXTERNAL
 set (SOURCE_FILES
   src/main.cpp
   # src/camera.h
-  # src/color.h
+  src/color.h
   # src/hittable.h
   # src/hittable_list.h
   # src/interval.h
@@ -30,7 +30,7 @@ set (SOURCE_FILES
   # src/ray.h
   # src/rtweekend.h
   # src/sphere.h
-  # src/vec3.h
+  src/vec3.h
 )
 
 include_directories(src)
