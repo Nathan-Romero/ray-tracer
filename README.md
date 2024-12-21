@@ -2,7 +2,9 @@
 
 ![Final Scene](./images/jpg/final-scene.jpg)
 
-This project is a Ray Tracer written in C++ that utilizes CMake for build configuration. The ray tracer simulates the way rays of light interact with objects in a scene to generate realistic images.
+## Overview
+
+This project is a C++ Ray Tracer based on the book "Ray Tracing in One Weekend" by Peter Shirley. It uses CMake for build configuration and simulates the interaction of light with objects to create realistic images. The project includes features such as ray-object intersection, reflection and refraction, support for different materials, and configurable camera and lighting settings.
 
 ## Features
 
