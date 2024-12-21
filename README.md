@@ -41,7 +41,3 @@ After building the project, you can run the ray tracer executable to render an i
 ```sh
 ./ray-tracer > image.ppm
 ```
-
-## Acknowledgements
-
-Special thanks to [Peter Shirley](https://github.com/RayTracing) for the excellent tutorial "Raytracing in One Weekend".
