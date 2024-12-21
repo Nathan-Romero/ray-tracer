@@ -8,10 +8,10 @@ This project is a C++ Ray Tracer based on the book "Ray Tracing in One Weekend" 
 
 ## Features
 
-- Ray-object intersection
-- Reflection and refraction
-- Unique behaviour for different materials
-- Configurable camera and lighting
+- **Ray-object intersection**: Calculates the intersection of rays with objects in the scene.
+- **Reflection and refraction**: Simulates light reflecting and refracting through different materials.
+- **Material properties**: Supports various materials with unique behaviors.
+- **Configurable camera and lighting**: Allows customization of the camera position, orientation, and lighting.
 
 ## Installation
 
@@ -22,7 +22,7 @@ This project is a C++ Ray Tracer based on the book "Ray Tracing in One Weekend" 
 
 ### Steps
 
-1. Clone the repository:
+1. Clone the repository and navigate to the project directory:
     ```sh
     git clone https://github.com/Nathan-Romero/ray-tracer.git
     cd ray-tracer
@@ -36,8 +36,10 @@ This project is a C++ Ray Tracer based on the book "Ray Tracing in One Weekend" 
 
 ## Usage
 
-After building the project, you can run the ray tracer executable to render an image. The following is an example command:
+After building the project, you can run the ray tracer executable to render an image. Below is an example of how to run the executable:
 
 ```sh
 ./ray-tracer > image.ppm
 ```
+
+This command will run the ray tracer and output the rendered image to a PPM file named `image.ppm` in the project directory. You can convert the image into a JPG file, or you can use other image viewing software (e.g., XnView) to open it.
