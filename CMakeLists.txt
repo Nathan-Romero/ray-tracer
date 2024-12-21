@@ -13,7 +13,7 @@ set (CMAKE_CXX_EXTENSIONS        OFF)
 
 # Source
 
-set ( EXTERNAL
+set (EXTERNAL
   src/external/stb_image.h
 )
 
