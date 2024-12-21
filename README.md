@@ -49,3 +49,10 @@ After building the project, you can run the ray tracer executable to render an i
 ./ray-tracer > image.ppm
 ```
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+Special thanks to [Peter Shirley](https://github.com/RayTracing) for the excellent tutorial "Raytracing in One Weekend".
