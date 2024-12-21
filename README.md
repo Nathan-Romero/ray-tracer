@@ -1,5 +1,7 @@
 # Ray Tracer
 
+![Final Scene](./images/jpg/final-scene.jpg)
+
 This project is a Ray Tracer written in C++ that utilizes CMake for build configuration. The ray tracer simulates the way rays of light interact with objects in a scene to generate realistic images.
 
 ## Features
