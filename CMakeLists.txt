@@ -1,7 +1,5 @@
 #---------------------------------------------------------------------------------------------------
-# CMake Build Configuration for the Ray Tracer project
-#
-# See README.md for guidance.
+# CMake Build Configuration for the ray-tracer project
 #---------------------------------------------------------------------------------------------------
 
 cmake_minimum_required (VERSION 3.1.0...3.27.0)
