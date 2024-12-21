@@ -5,16 +5,15 @@ This project is a Ray Tracer written in C++ that utilizes CMake for build config
 ## Features
 
 - Ray-object intersection
-- Phong shading model
 - Reflection and refraction
-- Multiple object types (spheres, planes, etc.)
+- Unique behaviour for different materials
 - Configurable camera and lighting
 
 ## Installation
 
 ### Prerequisites
 
-- C++ compiler (e.g., g++, clang++)
+- C++ compiler (e.g., g++, msvc, clang)
 - CMake (version 3.10 or higher)
 
 ### Steps
@@ -38,10 +37,6 @@ After building the project, you can run the ray tracer executable to render an i
 ```sh
 ./ray-tracer > image.ppm
 ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
