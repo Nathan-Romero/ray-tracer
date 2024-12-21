@@ -25,20 +25,10 @@ This project is a Ray Tracer written in C++ that utilizes CMake for build config
     cd ray-tracer
     ```
 
-2. Create a build directory and navigate into it:
+2. Build the project using CMake:
     ```sh
-    mkdir build
-    cd build
-    ```
-
-3. Run CMake to configure the project:
-    ```sh
-    cmake ..
-    ```
-
-4. Build the project:
-    ```sh
-    make
+    cmake -B build
+    cmake --build build --config Release  # Create release binaries in `build\Release`
     ```
 
 ## Usage
